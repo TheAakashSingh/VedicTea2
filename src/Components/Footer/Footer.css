@@ -1,0 +1,139 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 418px;
+  background: #366e36;
+}
+
+.footer-container .footer-para {
+  background: #366e36;
+  color: #fbfcd0;
+  font-family: Poppins;
+  font-size: 40px;
+  font-size: clamp(1.8rem, 40px, 3.5rem);
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  max-width: 1200px;
+}
+
+.footer-container .footer-para .buy-now {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfcd0;
+  color: #366e36;
+  border-radius: 8px;
+  padding: 8px 60px;
+  width: 200px;
+  height: 48px;
+  margin: auto;
+  margin-top: 1.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  /* margin-bottom: 104px; */
+}
+
+.footer-bar {
+  background: #fbfcd0;
+}
+
+.footer-bar .footer-inner {
+  display: flex;
+  max-width: 1241px;
+  flex-direction: column;
+  margin: auto;
+  padding: 2.25rem 1rem;
+}
+
+.footer-bar .footer-inner .footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bar .footer-inner .footer-top ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.footer .footer-logo {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #366e36;
+}
+.footer ul a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.footer .separator {
+  margin: 3rem auto 2rem;
+  height: 1px;
+  background-color: #000;
+  width: 100%;
+}
+
+.footer .copy-ele {
+  display: flex;
+  justify-content: center;
+}
+.footer .social-icons {
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+}
+.footer .footer-sub-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 809px;
+  justify-content: space-between;
+}
+.footer .copy-ele .terms {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: 5rem;
+}
+@media only screen and (max-width: 768px) {
+  .footer-container .footer-para {
+    padding: 1.5rem;
+  }
+  .footer-bar .footer-inner .footer-top {
+    flex-direction: column;
+  }
+  .footer-bar .footer-inner .footer-top ul {
+    flex-wrap: wrap;
+  }
+  .footer .footer-sub-wrapper {
+    padding-top: 1.5rem;
+  }
+  .footer .footer-sub-wrapper ul,
+  .footer .footer-sub-wrapper .social-icons {
+    flex-direction: column;
+  }
+  .footer .copy-ele {
+    flex-direction: column;
+  }
+  .footer .copy-ele .terms {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer-container .footer-para {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
