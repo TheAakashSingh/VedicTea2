@@ -1,6 +1,7 @@
 .home {
   background: #f5f5f5;
 }
+
 .home .hero-container {
   /* margin: 8rem; */
   background: #366e36;
@@ -10,6 +11,7 @@
   align-items: center;
   height: 598px;
 }
+
 .home .para {
   font-family: "Bodoni Moda";
   font-weight: 200;
@@ -20,6 +22,7 @@
   text-align: center;
   color: #fbfcd0;
 }
+
 .home .hero-container p {
   color: #fbfcd0;
   display: flex;
@@ -28,6 +31,7 @@
   margin-top: 1.5rem;
   font-size: 18px;
 }
+
 .home .buy-now {
   display: flex;
   justify-content: center;
@@ -51,6 +55,7 @@
   gap: 0.5rem;
   text-transform: uppercase;
 }
+
 .home .hero-image {
   background: url(../../images/projectphotography/WhatsApp\ Image\ 2023-05-19\ at\ 8.29.25\ PM.jpeg);
   height: 798px;
@@ -59,11 +64,13 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .home .featured {
   margin: 0 117px;
   margin-top: 80px;
 }
-.home .media > p {
+
+.home .media>p {
   font-family: Inter;
   font-size: 32px;
   font-weight: 600;
@@ -158,22 +165,11 @@
   flex-wrap: wrap;
 }
 
-.home
-  .featured
-  .featured-preview
-  .content-wrapper
-  .featured-reviews
-  .featured-review {
-   max-width: 259px;
+.home .featured .featured-preview .content-wrapper .featured-reviews .featured-review {
+  max-width: 259px;
 }
 
-.home
-  .featured
-  .featured-preview
-  .content-wrapper
-  .featured-reviews
-  .featured-review
-  .review-heading {
+.home .featured .featured-preview .content-wrapper .featured-reviews .featured-review .review-heading {
   font-family: Inter;
   font-size: 18px;
   font-weight: 500;
@@ -183,13 +179,7 @@
   color: #111111;
 }
 
-.home
-  .featured
-  .featured-preview
-  .content-wrapper
-  .featured-reviews
-  .featured-review
-  .review-content {
+.home .featured .featured-preview .content-wrapper .featured-reviews .featured-review .review-content {
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -199,6 +189,7 @@
   color: #767676;
   margin-top: 1rem;
 }
+
 .home .featured-product {
   display: flex;
   justify-content: center;
@@ -206,6 +197,7 @@
   align-items: center;
   margin-top: 120px;
 }
+
 .home .product-heading {
   color: #000000;
   font-family: Poppins;
@@ -214,6 +206,7 @@
   line-height: 54px;
   text-align: center;
 }
+
 .home .featured-product p {
   font-family: Poppins;
   font-size: 16px;
@@ -248,6 +241,7 @@
   height: 230px;
   border-radius: 0.5rem;
 }
+
 .home .product-card .content-wrapper .title {
   margin-top: 1rem;
   font-family: Poppins;
@@ -257,6 +251,7 @@
   letter-spacing: -0.02em;
   text-align: center;
 }
+
 .home .product-card .content-wrapper .description {
   font-family: Poppins;
   font-size: 16px;
@@ -267,6 +262,7 @@
   color: #6b6b6b;
   margin-top: 1rem;
 }
+
 .home .product-card .price {
   font-family: Poppins;
   font-size: 18px;
@@ -277,12 +273,14 @@
   display: flex;
   align-items: center;
 }
+
 .home .product-card .bottom-content {
   display: flex;
   justify-content: space-around;
   margin-top: 1rem;
   align-items: center;
 }
+
 .home .product-card .price span {
   font-family: Poppins;
   font-size: 12px;
@@ -309,6 +307,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
 .home .new-product-message {
   font-family: Inter;
   font-size: 32px;
@@ -327,6 +326,7 @@
   margin-top: 140px;
   padding-bottom: 128px;
 }
+
 .home .testimonial-section .blue-text {
   font-family: Poppins;
   font-size: 16px;
@@ -336,6 +336,7 @@
   text-align: center;
   color: #2563eb;
 }
+
 .home .testimonial-section .testimonial-heading {
   font-family: Poppins;
   font-size: 36px;
@@ -363,14 +364,11 @@
   border-radius: 8px;
 }
 
-.home
-  .testimonial-section
-  .testimonial-card-wrapper
-  .testimonial-card
-  .img-wrapper {
+.home .testimonial-section .testimonial-card-wrapper .testimonial-card .img-wrapper {
   width: 200px;
   height: 210px;
 }
+
 .home .testimonial-section .testimonial-card-wrapper .testimonial-card img {
   /* min-height: 210px; */
   min-width: 100%;
@@ -380,29 +378,16 @@
   object-fit: cover;
 }
 
-.home
-  .testimonial-section
-  .testimonial-card-wrapper
-  .testimonial-card
-  .content-wrapper {
+.home .testimonial-section .testimonial-card-wrapper .testimonial-card .content-wrapper {
   margin: 1.5rem;
 }
-.home
-  .testimonial-section
-  .testimonial-card-wrapper
-  .testimonial-card
-  .content-wrapper
-  .stars {
+
+.home .testimonial-section .testimonial-card-wrapper .testimonial-card .content-wrapper .stars {
   display: flex;
   gap: 6.62px;
 }
 
-.home
-  .testimonial-section
-  .testimonial-card-wrapper
-  .testimonial-card
-  .content-wrapper
-  .description {
+.home .testimonial-section .testimonial-card-wrapper .testimonial-card .content-wrapper .description {
   margin-top: 1rem;
   font-family: Poppins;
   font-size: 14px;
@@ -413,12 +398,7 @@
   width: 400px;
 }
 
-.home
-  .testimonial-section
-  .testimonial-card-wrapper
-  .testimonial-card
-  .content-wrapper
-  .author {
+.home .testimonial-section .testimonial-card-wrapper .testimonial-card .content-wrapper .author {
   font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
@@ -442,6 +422,7 @@
 .home .carousel-product .left {
   max-width: 532px;
 }
+
 .home .carousel-product .left .product-title {
   font-family: Inter;
   font-size: 32px;
@@ -450,6 +431,7 @@
   letter-spacing: -0.02em;
   text-align: left;
 }
+
 .home .carousel-product .left .product-description {
   font-family: Inter;
   font-size: 16px;
@@ -460,6 +442,7 @@
   color: #111111;
   padding-top: 3px;
 }
+
 .home .carousel-product .left ul {
   list-style: none;
   padding-top: 0.75rem;
@@ -470,10 +453,12 @@
   gap: 14px;
   padding-top: 0.75rem;
 }
+
 .home .carousel-product .left ul li svg {
   color: #14d53f;
   font-size: 1.25rem;
 }
+
 .home .carousel-product .left ul li p {
   font-family: Inter;
   font-size: 16px;
@@ -490,6 +475,7 @@
   gap: 0.75rem;
   margin-top: 2rem;
 }
+
 .home .carousel-product .left .price-container .price-text {
   font-family: Inter;
   font-size: 16px;
@@ -509,6 +495,7 @@
   text-align: left;
   color: #366e36;
 }
+
 .home .carousel-product .left .price-container .actual-price {
   font-family: Inter;
   font-size: 20px;
@@ -557,18 +544,22 @@
     height: fit-content;
     padding-bottom: 2rem;
   }
+
   .home .para {
     padding: 1.5rem;
   }
+
   .home .featured {
     margin: 0 3rem;
     margin-top: 80px;
   }
+
   .home .media .media-ele {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
+
   .home .media .media-ele p {
     padding: 1rem;
   }
@@ -577,32 +568,27 @@
     padding: 3rem;
     overflow-wrap: break-word;
   }
+
   .home .testimonial-section .testimonial-card-wrapper .testimonial-card {
     max-height: unset;
     padding: 1rem;
     gap: 1rem;
   }
-  .home
-    .testimonial-section
-    .testimonial-card-wrapper
-    .testimonial-card
-    .img-wrapper {
+
+  .home .testimonial-section .testimonial-card-wrapper .testimonial-card .img-wrapper {
     width: auto;
     height: auto;
     max-height: 150px;
     max-width: 150px;
   }
+
   .home .testimonial-section .testimonial-card-wrapper .testimonial-card img {
     max-width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .home
-    .testimonial-section
-    .testimonial-card-wrapper
-    .testimonial-card
-    .content-wrapper {
-    /* width: 70%; */
+
+  .home .testimonial-section .testimonial-card-wrapper .testimonial-card .content-wrapper {
     margin: 0;
   }
 }
@@ -611,10 +597,12 @@
   .home .hero-container {
     padding-top: calc(90px - 1.5rem);
   }
+
   .home .para {
     font-size: 36px;
     line-height: 56px;
   }
+
   .home .hero-container p {
     font-size: 18px;
     line-height: 23px;
@@ -622,17 +610,21 @@
     margin-top: 0;
     padding-top: 0;
   }
+
   .home .buy-now {
     margin-top: 0;
   }
+
   .home .featured {
     margin: 1.5rem;
     margin-top: 4rem;
   }
+
   .home .media .media-ele {
     flex-direction: column;
     font-size: 20px;
   }
+
   .home .featured .featured-note {
     font-family: Poppins;
     font-size: 24px;
@@ -642,21 +634,27 @@
     text-align: center;
     margin-top: 4rem;
   }
+
   .home .featured .featured-preview {
     margin-top: 4rem;
   }
+
   .home .featured .featured-preview .content-wrapper .content-heading {
     text-align: center;
   }
+
   .home .featured .featured-preview .content-wrapper .content-para {
     text-align: center;
   }
+
   .home .featured .featured-preview .content-wrapper .featured-reviews {
     justify-content: center;
   }
+
   .home .featured-product {
     margin-top: 4rem;
   }
+
   .home .product-heading {
     font-family: Poppins;
     font-size: 22px;
@@ -665,7 +663,8 @@
     letter-spacing: 0em;
     text-align: left;
   }
-  .home .featured-product > p {
+
+  .home .featured-product>p {
     font-family: Poppins;
     font-size: 12px;
     font-weight: 400;
@@ -674,6 +673,7 @@
     text-align: center;
     padding: 1rem;
   }
+
   .home .carousel-product .left .product-title {
     font-family: Inter;
     font-size: 24px;
@@ -682,30 +682,36 @@
     letter-spacing: 0.08rem;
     text-align: left;
   }
+
   .home .carousel-product {
     padding: 0.5rem;
     display: none;
   }
+
   .home .testimonial-section {
     padding: 1.5rem;
     margin-top: 2.5rem;
   }
+
   .home .product-card {
     max-width: 389px;
     /* max-height: 500px; */
     height: fit-content;
     width: -webkit-fill-available;
   }
+
   .home .product-card .image-wrapper {
     display: flex;
     justify-content: center;
   }
+
   .home .product-card img {
     width: calc(367px - 44%);
     width: fit-content;
     width: -webkit-fill-available;
     height: calc(230px - 44%);
   }
+
   .home .new-product-message {
     font-family: Inter;
     font-size: 20px;
@@ -716,24 +722,22 @@
     margin-top: 2rem;
     max-width: 186px;
   }
+
   .home .testimonial-section .blue-text {
     font-family: Poppins;
     font-size: 12px;
     font-weight: 600;
     line-height: 28px;
   }
+
   .home .testimonial-section .testimonial-heading {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 1px;
     font-family: Poppins;
   }
-  .home
-    .testimonial-section
-    .testimonial-card-wrapper
-    .testimonial-card
-    .content-wrapper
-    .description {
+
+  .home .testimonial-section .testimonial-card-wrapper .testimonial-card .content-wrapper .description {
     margin-top: 0.5rem;
     font-family: Poppins;
     font-size: 10px;
@@ -741,14 +745,10 @@
     line-height: 19px;
     letter-spacing: 0px;
     text-align: left;
-    width: auto ;
+    width: auto;
   }
-  .home
-    .testimonial-section
-    .testimonial-card-wrapper
-    .testimonial-card
-    .content-wrapper
-    .author {
+
+  .home .testimonial-section .testimonial-card-wrapper .testimonial-card .content-wrapper .author {
     margin-top: 0.5rem;
     font-family: Poppins;
     font-size: 16px;
@@ -757,15 +757,13 @@
     letter-spacing: -0.20000000298023224px;
     text-align: left;
   }
-  .home
-    .testimonial-section
-    .testimonial-card-wrapper
-    .testimonial-card
-    .img-wrapper {
+
+  .home .testimonial-section .testimonial-card-wrapper .testimonial-card .img-wrapper {
     min-width: 92px;
     height: 100%;
   }
 }
+
 @media only screen and (max-width: 440px) {
   .home .product-card img {
     width: 100%;
