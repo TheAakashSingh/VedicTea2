@@ -1,12 +1,18 @@
 .contact {
   background: #f5f5f5;
 }
+
 .contact .contact-hero {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   padding: 5rem;
 }
+
+.contact .contact-hero>.left {
+  margin-top: 80px;
+}
+
 .contact .contact-hero .contact-head {
   max-width: 638px;
   display: flex;
@@ -15,8 +21,10 @@
   font-weight: 400;
   font-size: 64px;
   line-height: 77px;
+  margin-bottom: 20px;
   color: #111111;
 }
+
 .contact .contact-hero a {
   font-family: Poppins;
   font-size: 32px;
@@ -28,10 +36,11 @@
   margin-top: 50px;
   text-decoration: underline;
 }
+
 .contact .testimonial-content {
   /* padding: 88px, 115px, 60px, 115px; */
   padding: 88px 3rem;
-  margin: 120px auto;
+  margin: 30px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +56,7 @@
 }
 
 .contact .discuss {
-  padding: 5rem;
+  padding: 2rem 5rem;
   max-width: 1380px;
   margin: auto;
 }
@@ -87,6 +96,7 @@
   background-color: #366e36;
   color: #fbfcd0;
 }
+
 .contact .discuss .discuss-card-wrapper .discuss-card .card-heading {
   font-family: Poppins;
   font-size: 32px;
@@ -96,6 +106,7 @@
   text-align: center;
   margin-bottom: 1.5rem;
 }
+
 .contact .discuss .discuss-card-wrapper .discuss-card .card-content {
   font-family: Poppins;
   font-size: 16px;
@@ -111,6 +122,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .contact .discuss .discuss-card-wrapper .discuss-card button {
   font-family: Poppins;
   font-size: 16px;
@@ -124,11 +136,13 @@
   outline: none;
   padding: 0.5rem 1rem;
 }
+
 .contact .rating-container-wrapper {
   width: 100%;
 
   background: #fbfcd0;
 }
+
 .contact .rating-container {
   display: flex;
   justify-content: space-between;
@@ -139,11 +153,12 @@
   width: 100%;
   margin: auto;
 }
-.contact .rating-container .left {
-}
+
+.contact .rating-container .left {}
+
 .contact .rating-container .left p {
   width: 624px;
-  height: 114px;
+  height: 83px;
   background: #fbfcd0;
   font-family: "Inter";
   font-style: normal;
@@ -152,19 +167,22 @@
   line-height: 38px;
   color: #767676;
 }
+
 .contact .rating-container .left .name {
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 50px;
   letter-spacing: -0.001em;
-  margin-top: 32px;
+  margin-top: 20px;
   text-align: left;
 }
+
 .contact .rating-container .left .rate-star {
   display: flex;
   gap: 6px;
 }
+
 .contact .rating-container .right img {
   height: 417px;
   width: 347px;
@@ -178,6 +196,7 @@
   display: flex;
   gap: 0.5rem;
 }
+
 .contact .rating-container .button-container button {
   background-color: #366e36;
   padding: 13px;
@@ -185,18 +204,22 @@
   border: none;
   outline: none;
 }
+
 .contact .button-container.mob {
   display: none;
 }
+
 .faq-container {
   width: 100%;
   padding: 2rem;
   background-color: #f6f6ee;
 }
+
 .faq-container .faq-wrapper {
   max-width: 820px;
   margin: auto;
 }
+
 .faq-container .faq-wrapper .heading {
   font-family: Poppins;
   font-size: 36px;
@@ -222,11 +245,13 @@
   margin: auto;
   border-top: 1px solid black;
 }
+
 .faq-container .faq-wrapper .faqs .faq {
   padding: 22.5px 0;
   border-bottom: 1px solid black;
   cursor: pointer;
 }
+
 .faq-container .faq-wrapper .faqs .faq .faq-question {
   font-family: Roboto, Poppins;
   font-size: 18px;
@@ -235,6 +260,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
 .faq-container .faq-wrapper .faqs .faq .faq-answer {
   font-family: Roboto, Poppins;
   font-size: 18px;
@@ -254,6 +280,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .faq-container .faq-wrapper .faqs .faq.open .faq-answer {
   visibility: visible;
   opacity: 1;
@@ -270,13 +297,14 @@
   text-align: center;
   margin-top: 2rem;
 }
+
 .faq-container .faq-wrapper .call-us .number {
   color: #366e36;
   padding-left: 0.5rem;
 }
 
 .address {
-  padding: 120px;
+  padding: 60px 120px;
   background-color: #f5f5f5;
   display: flex;
   gap: 2rem;
@@ -286,12 +314,14 @@
   max-width: 1400px;
   margin: auto;
 }
+
 .address .left {
   max-width: 406px;
   display: flex;
   flex-direction: column;
   height: 414px;
 }
+
 .address .left .content-wrapper .heading {
   font-family: Poppins;
   font-size: 36px;
@@ -301,9 +331,11 @@
   text-align: left;
   margin-bottom: 1rem;
 }
+
 .address .left .location {
   margin-top: 6rem;
 }
+
 .address .left .content-wrapper .sub-heading {
   font-family: Poppins;
   font-size: 16px;
@@ -323,6 +355,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
 .address .left .location .location-address {
   font-family: Poppins;
   font-size: 18px;
@@ -331,6 +364,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
 .address .right {
   max-width: 710px;
   display: flex;
@@ -360,6 +394,7 @@
   align-items: center;
   gap: 0.75rem;
 }
+
 .address .right .social-card .connect {
   font-family: Poppins;
   font-size: 20px;
@@ -369,9 +404,11 @@
   text-align: right;
   text-decoration: underline;
 }
+
 .address .right .social-card.facebook {
   background: #d9e1ff;
 }
+
 .address .right .social-card.facebook .connect {
   color: #315eff;
 }
@@ -379,6 +416,7 @@
 .address .right .social-card.instagram {
   background: #ffeced;
 }
+
 .address .right .social-card.instagram .connect {
   color: #c8101b;
 }
@@ -386,12 +424,15 @@
 .address .right .social-card.linkedin {
   background: #e3ebff;
 }
+
 .address .right .social-card.linkedin .connect {
   color: #315eff;
 }
+
 .address .right .social-card.twitter {
   background: #d0e9ff;
 }
+
 .address .right .social-card.twitter .connect {
   color: #2295ff;
 }
@@ -402,21 +443,27 @@
     flex-direction: column;
     justify-content: center;
   }
+
   .contact .contact-hero {
     flex-wrap: wrap;
   }
+
   .contact .contact-hero .left {
     margin-bottom: 2rem;
   }
+
   .contact .discuss .discuss-card-wrapper {
     justify-content: center;
   }
+
   .contact .button-container.des {
     display: none;
   }
+
   .contact .button-container.mob {
     display: flex;
   }
+
   .contact .rating-container .left p {
     height: unset;
   }
@@ -426,44 +473,92 @@
   .contact .rating-container {
     padding: 2rem;
   }
+
+  .address .left .location {
+    margin-top: 1rem;
+  }
+  .address .left {
+    height: 314px;
+  }
+  .address {
+    padding: 16px 120px;
+  }
+
+  .contact .discuss {
+    padding: 1rem 5rem;
+
+  }
+
+  .contact .testimonial-content {
+    padding: 40px 3rem
+  }
+
+  .contact .contact-hero {
+    padding: 0rem 5rem;
+  }
+
   .contact .rating-container .left p {
     width: unset;
     height: unset;
   }
+
   .contact .discuss .discuss-card-wrapper .discuss-card {
     max-height: unset;
   }
+
   .address .left {
-    justify-content: center;
+    /* justify-content: center; */
     gap: 1rem;
     max-width: none;
   }
+
   .address .right {
     justify-content: center;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .address {
     padding: 3rem 2rem;
   }
+
   .address .right {
     justify-content: center;
   }
+
   .contact .discuss {
     padding: 2rem;
   }
 }
+
 @media only screen and (max-width: 400px) {
   .address .right .social-card {
     max-width: 320px;
     width: -webkit-fill-available;
   }
+
   .contact .contact-hero .contact-head {
     font-size: 58px;
   }
+  .address .left {
+    height: 414px;
 }
+}
+
 @media only screen and (max-width: 440px) {
   .contact .rating-container .right img {
     width: 250px;
   }
+  .contact .testimonial-content {
+    padding: 40px 3rem;
+    font-size: 31px;
+}
+  .right >div>svg{
+    height: 433px;
+  }
+}
+@media only screen and (max-width: 330px){
+.right >div>svg {
+    height: 255px;
+}
 }
