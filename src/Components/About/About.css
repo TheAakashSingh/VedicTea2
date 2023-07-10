@@ -288,7 +288,7 @@
 
 .about .about-container4 .right h2 {
   margin: 2rem 0;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   font-family: "Poppins";
 }
@@ -380,7 +380,7 @@
 
 .team-container .image-wrapper .image-card h6 {
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 36px;
   letter-spacing: 0px;
@@ -420,7 +420,7 @@
   .about .about-container4 {
     height: fit-content;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 1rem;
     justify-content: center;
   }
 
@@ -439,8 +439,24 @@
     padding: 4rem;
   }
 
+  .team-container .image-wrapper {
+    margin-top: 2rem;
+  }
+
+  .about .mission-section {
+    padding: 30px 0px;
+  }
+
   .about .about-container2 {
-    margin: 53px 3rem;
+    margin: 13px 3rem;
+  }
+
+  .about .about-container4 .right h2 {
+    margin: 1rem 0rem;
+  }
+
+  .team-container .upper-section {
+    flex-wrap: nowrap;
   }
 
   .about .about-container2 .left img {
@@ -462,33 +478,43 @@
   .team-container .upper-section .left-team .team-head {
     width: unset;
     height: unset;
+    font-size: 33px;
+    margin-bottom: 7px;
   }
 
   .about .about-hero {
     height: unset;
-    padding: 3rem;
+    padding: 2rem;
   }
 
   .content {
     height: unset;
     width: unset;
+    font-size: 39px;
+    line-height: 47px;
   }
 
   .about .about-hero p {
     width: unset;
     height: unset;
+    margin-top: 7px;
   }
 
   .about .about-hero .btn {
     flex-wrap: wrap;
+    margin-top: 25px;
+    gap: 25px;
   }
 
   .about .happy-customers-section .happy-customers {
-    padding: 1.5rem;
+    padding: 2.5rem 1.5rem;
+    font-size: 32px;
+    line-height: 47px;
+    padding-bottom: 0.5rem;
   }
 
   .happy-customers-section .happy-customers .tea-kettle {
-    top: -5px;
+    top: 5px;
     right: 1rem;
   }
 
@@ -502,17 +528,34 @@
     padding: 1.5rem;
   }
 
+  .about .about-container2 {
+    margin: 13px 3rem;
+    gap: 2rem;
+  }
+
+  .team-container .upper-section {
+    flex-wrap: wrap;
+  }
+
   .about .mission-section {
-    padding: 120px 2rem;
+    padding: 50px 2rem;
   }
 
   .about .mission-section .mission-wrapper img {
     width: 100%;
   }
 
+  .about .happy-customers-section .happy-customers {
+    font-size: 27px;
+  }
+
   .about .mission-section .mission-wrapper .left,
   .about .mission-section .mission-wrapper .right {
-    padding: 45px 2rem;
+    padding: 25px 2rem;
+  }
+
+  .about .about-container4 .right h2 {
+    font-size: 21px;
   }
 
   .about .about-container2 .left img {
@@ -525,7 +568,7 @@
   }
 
   .about .about-container4 {
-    padding: 53px 3rem;
+    padding: 33px 3rem;
   }
 
   .about .about-container4 .left img {

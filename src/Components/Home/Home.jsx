@@ -29,7 +29,7 @@ const Home = () => {
           We assure you to provide best caffeine free herbal tea for your
           healthy life style
         </h2>
-        <p>Transform your health with the goodness of Moringa…!!!</p>
+        <p>Transform your health with the goodness of Moringa</p>
 
         <button className="buy-now" onClick={() => handleScroll("our-product")}>
           Explore More
@@ -94,7 +94,7 @@ const Home = () => {
               </div>
               <div className="featured-review">
                 <div className="review-heading">
-                  Blood Sugar <br /> Management:
+                  Blood Sugar Management:
                 </div>
                 <div className="review-content">
                   <ul>

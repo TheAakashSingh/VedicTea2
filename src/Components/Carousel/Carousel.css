@@ -21,10 +21,18 @@
   object-fit: cover;
 }
 
+
+@media only screen and (max-width: 1024px) {
+  .carousel-product .swiper {
+    width: 390px;
+    height: 440px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .carousel-product .swiper {
-    width: 420px;
-    height: 300px;
+    width: 337px;
+    height: 400px;
   }
 }
 
