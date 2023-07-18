@@ -17,35 +17,18 @@ import TestimonialSlider from "../TestimonialSlider/TestimonialSlider";
 const ContactUs = () => {
   const [faqs, setFaqs] = useState([
     {
-      question: "Question text goes here",
+      question: "How does Vedic Teagen Moringa Tea benefit my well-being?",
       answer:
-        "Let’s answer your users questions under 1 hours to make their experience happy, and this is your answer field.",
+        "Beyond its delicated taste , packed antioxidants, it suppports immunity aids digestion, and boost your overall vitality.",
       open: true,
     },
     {
-      question: "Question text goes here",
+      question: "What makes Vedic Teagen Moringa Tea so speciall?",
       answer:
-        "Let’s answer your users questions under 1 hours to make their experience happy, and this is your answer field.",
+        "Our Moringa leaves are from the purest regions, ensuring a tea that's bursting with unparalleled freshness and vitality!",
       open: false,
     },
-    {
-      question: "Question text goes here",
-      answer:
-        "Let’s answer your users questions under 1 hours to make their experience happy, and this is your answer field.",
-      open: false,
-    },
-    {
-      question: "Question text goes here",
-      answer:
-        "Let’s answer your users questions under 1 hours to make their experience happy, and this is your answer field.",
-      open: false,
-    },
-    {
-      question: "Question text goes here",
-      answer:
-        "Let’s answer your users questions under 1 hours to make their experience happy, and this is your answer field.",
-      open: false,
-    },
+   
   ]);
 
   const toggleFAQ = (index) => {
