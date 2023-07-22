@@ -44,22 +44,22 @@ const About = () => {
       </div>
       <div className="about-container2">
         <div className="left" >
-          <Carousel cols={1}  gap={0} loop autoplay={2500} hideArrow>
+          <Carousel cols={1} gap={0} loop autoplay={2500} hideArrow>
             <Carousel.Item>
               <img width="100%" src={Img1} />
             </Carousel.Item>
-            
+
             <Carousel.Item>
               <img width="100%" src={Img2} />
             </Carousel.Item>
-            
+
             <Carousel.Item>
               <img width="100%" src={Img3} />
             </Carousel.Item>
-            
+
             <Carousel.Item>
               <img width="100%" src={Img4} />
-            </Carousel.Item>            
+            </Carousel.Item>
           </Carousel>
         </div>
         <div className="right">
@@ -169,16 +169,13 @@ const About = () => {
             <h6> Ms. Saikrishna Mohanty</h6>
             <p>Managing Director</p>
           </div>
+          
           <div className="image-card">
             <img src={caaroop} />
             <h6>CA Arup Sahoo</h6>
             <p>Managing Director</p>
           </div>
-          <div className="image-card">
-            <img src={teammember3Img} />
-            <h6> Laxman Nandan</h6>
-            <p>Chief Marketing Officer, Co founder</p>
-          </div>
+
         </div>
       </div>
     </div>
