@@ -367,7 +367,7 @@
 .team-container .image-wrapper {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 55px;
   margin-top: 3rem;
   flex-wrap: wrap;
 }
