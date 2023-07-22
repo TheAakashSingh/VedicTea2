@@ -564,7 +564,7 @@
   }
 
   .team-container .image-wrapper .image-card img {
-    width: unset;
+    width: 100%;
   }
 
   .about .about-container4 {
