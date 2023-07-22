@@ -26,7 +26,7 @@ const CarouselProduct = () => {
 
         <div className="price-container">
           <div className="price-text">Price</div>
-          <div className="discounted-price">₹ 210</div>
+          <div className="discounted-price">₹ 215</div>
           <div className="actual-price">₹ 999</div>
         </div>
         <div className="bottom-wrapper">

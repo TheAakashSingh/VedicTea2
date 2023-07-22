@@ -28,7 +28,7 @@ const ContactUs = () => {
         "Our Moringa leaves are from the purest regions, ensuring a tea that's bursting with unparalleled freshness and vitality!",
       open: false,
     },
-   
+
   ]);
 
   const toggleFAQ = (index) => {
@@ -112,7 +112,7 @@ const ContactUs = () => {
           </div>
           <div className="call-us">
             Don’t have the queries you looking for ?
-            <span className="number">Call us at - 78xxx - 789xx</span>
+            <span className="number">Call us at 7008993560</span>
           </div>
         </div>
       </div>
@@ -126,27 +126,30 @@ const ContactUs = () => {
           <div className="location">
             <div className="heading">Our HQ Location</div>
             <div className="location-address">
-              XYZ street, Opposite DC office <br />
-              New Town, 78x76x <br />
-              Bihar, India
+              Plot no-94, Lane no-7, Bapuji Nagar, Bhubaneswar, Odisha -751009
             </div>
           </div>
         </div>
         <div className="right">
-          <div className="social-card facebook">
-            <div className="heading">
-              {" "}
-              <FacebookColored /> Facebook
+          <a href="https://www.facebook.com/profile.php?id=100090816356167&mibextid=ZbWKwL">
+            <div className="social-card facebook">
+              <div className="heading">
+                {" "}
+                <FacebookColored /> Facebook
+              </div>
+              <div className="connect">Let’s be friends</div>
             </div>
-            <div className="connect">Let’s be friends</div>
-          </div>
-          <div className="social-card instagram">
-            <div className="heading">
-              {" "}
-              <InstaColored /> Instagram
+          </a>
+          <a href="https://instagram.com/vedic_teagen?igshid=MzRlODBiNWFlZA==">
+            <div className="social-card instagram">
+              <div className="heading">
+                {" "}
+                <InstaColored /> Instagram
+              </div>
+              <div className="connect">Follow us</div>
             </div>
-            <div className="connect">Follow us</div>
-          </div>
+          </a>
+
           <div className="social-card linkedin">
             <div className="heading">
               {" "}

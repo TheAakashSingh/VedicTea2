@@ -135,13 +135,13 @@ const Home = () => {
           <div className="product-card-wrapper">
             <ProductCard
               title="Moringa Apple Cinnamon Infusion"
-              price="210"
+              price="215"
               img={ProductImage1}
               description="It is made with pure moringa leaves, apple and cinnamon pieces. Moringa infusion bags would be a convenient and refreshing beverage to boost our normal lifestyle. We can simply drink the infusion to get the maximum benefit of the miracle tree."
             />
             <ProductCard
               title="Moringa Strawberry Infusion"
-              price="210"
+              price="215"
               img={ProductImage2}
               marginTopDecsription="3.4rem"
               description="It is made with pure moringa leaves, strawberry pieces. Moringa infusion bags would be a convenient and refreshing beverage to boost our normal lifestyle. We can simply drink the infusion to get the maximum benefit of the miracle tree.
@@ -149,7 +149,7 @@ const Home = () => {
             />
             <ProductCard
               title="Moringa Mint Infusion "
-              price="210"
+              price="215"
               img={ProductImage3}
               marginTopDecsription="3.4rem"
               description="It is made with pure moringa leaves, mint leaves. Moringa infusion bags would be a convenient and refreshing beverage to boost our normal lifestyle. We can simply drink the infusion to get the maximum benefit of the miracle tree."
@@ -166,21 +166,21 @@ const Home = () => {
 
           <ProductCard
             title="Moringa Noodles "
-            price="210"
+            price="215"
             img={ProductImage3}
             marginTopDecsription="3.4rem"
             description="It is made with pure moringa leaves, mint leaves. Moringa infusion bags would be a convenient and refreshing beverage to boost our normal lifestyle. We can simply drink the infusion to get the maximum benefit of the miracle tree."
           />
           <ProductCard
             title="Moringa SOAP "
-            price="210"
+            price="215"
             img={ProductImage3}
             marginTopDecsription="3.4rem"
             description="It is made with pure moringa leaves, mint leaves. Moringa infusion bags would be a convenient and refreshing beverage to boost our normal lifestyle. We can simply drink the infusion to get the maximum benefit of the miracle tree."
           />
           <ProductCard
             title="Moringa OIL "
-            price="210"
+            price="215"
             img={ProductImage3}
             marginTopDecsription="3.4rem"
             description="It is made with pure moringa leaves, mint leaves. Moringa infusion bags would be a convenient and refreshing beverage to boost our normal lifestyle. We can simply drink the infusion to get the maximum benefit of the miracle tree."

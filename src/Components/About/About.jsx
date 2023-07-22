@@ -5,6 +5,8 @@ import Img2 from "../../images/projectphotography/WhatsApp Image 2023-05-19 at 8
 import Img3 from "../../images/projectphotography/WhatsApp Image 2023-05-19 at 8.29.23 PM.jpeg";
 import Img4 from "../../images/projectphotography/WhatsApp Image 2023-05-19 at 8.29.26 PM(1).jpeg";
 import MissionImg from "../../images/mission.png";
+import mssaikrishna from "../../images/Ms.Saikrishna Mohanty.jpg";
+import caaroop from "../../images/CA Arup Sahoo.jpg";
 import VisionImg from "../../images/vision.png";
 import container4Img from "../../images/container4.png";
 import customer1Img from "../../images/customer1.png";
@@ -163,14 +165,14 @@ const About = () => {
         </div>
         <div className="image-wrapper">
           <div className="image-card">
-            <img src={teammember1Img} />
+            <img src={mssaikrishna} />
             <h6> Ms. Saikrishna Mohanty</h6>
             <p>Managing Director</p>
           </div>
           <div className="image-card">
-            <img src={teammember2Img} />
-            <h6>Vinod Paul</h6>
-            <p>Chief Operation Officer, Co founder</p>
+            <img src={caaroop} />
+            <h6>CA Arup Sahoo</h6>
+            <p>Managing Director</p>
           </div>
           <div className="image-card">
             <img src={teammember3Img} />
