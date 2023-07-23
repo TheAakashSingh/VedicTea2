@@ -144,12 +144,12 @@ const About = () => {
             <TeaKettle />
           </div>
         </div>
-        <div className="img-wrapper">
+        {/* <div className="img-wrapper">
           <img src={customer1Img} />
           <img src={customer2Img} />
           <img src={customer3Img} />
           <img src={customer4Img} />
-        </div>
+        </div> */}
       </div>
       <div className="team-container">
         <div className="upper-section">
